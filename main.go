@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"log"
 
 	"github.com/google/uuid"
 )
@@ -12,5 +11,4 @@ func main() {
 	fmt.Print(nixton)
 	fmt.Print("Creado Por Lucas11 ")
 	fmt.Println(" UUID:", uuid.New().String())
-	log.Print()
 }
